@@ -1,0 +1,190 @@
+:root{
+    --brand-color1: #2F303A;/*background*/
+    --brand-color2: #2196F3;
+    --brand-font:'Roboto';
+}
+.logo{
+    align-self: start;
+    /*position: absolute;*/
+    left: 30px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    text-align: left;
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+}
+
+.menu{
+    color: var(--brand-color1);
+    text-align:center;
+}
+.contact{
+    color: var(--brand-color1);
+    text-align:right;
+}
+
+.menu,.contact{
+    display: inline;
+    color: var(--brand-color1);
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px;
+}
+ li:hover{
+    color: var(--brand-color2);
+ }
+
+body{
+    align-items: center;
+    font-family: var(--brand-font);
+    text-align: center;
+}
+
+a{
+    text-decoration: none; /*sin subrayado*/
+}
+.flex-container{ /*index*/
+    display: flex;
+    margin: 30px;
+}
+
+.bg{/* position: absolute; index*/
+    width: 1600px;
+    height: 600px;
+    left: -4px;
+    top: 80px;
+
+    background: var(--brand-color1);
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.first-buttton{/* Solicite nuestro servicio */
+    width: 197px;
+    height: 30px;
+    padding: 20px 10px 20px 10px;
+    background-color: var(--brand-color2);
+    border-bottom: none;
+    border-radius: 0px;
+    margin: 10px 10px 10px 10px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+
+.button-main{
+    background: #F5F4FA;
+    border: none;
+    
+    padding: 10px 10px 10px 10px;
+    margin: 1px 1px 1px 1px;
+
+    width: 120px;
+    height: 36px;
+    left: calc(50% - 98px/2 - 16px);
+    top: calc(50% - 26px/2 - 735px);
+
+    font-family: var(--brand-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+
+}
+.button-main:hover{
+    background: var(--brand-color2);
+    color:white;
+    border: none;
+    font-weight: 500;
+}
+footer{
+    /*position: absolute;*/
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    
+    margin: 10px;
+    padding: 10px;
+    background: var(--brand-color1);
+    display: flex;
+
+    position: absolute;
+
+    font-family: var(--brand-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+/* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-aling{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+.nine-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: left;
+    margin: 30px;
+    left: calc(50% - 370px/2 - 400px);
+
+}
+
+figure:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 50px;
+    font-family: var(--brand-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.06em;
+
+    color: #212121;
+}
