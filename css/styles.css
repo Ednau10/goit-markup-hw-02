@@ -50,7 +50,12 @@ body{
 
 a{
     text-decoration: none; /*sin subrayado*/
+    color:var(--brand-color1)
 }
+a:hover{
+    color:var(--brand-color2)
+}
+
 .flex-container{ /*index*/
     display: flex;
     margin: 30px;
